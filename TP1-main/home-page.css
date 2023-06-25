@@ -1,0 +1,277 @@
+body{
+    margin: 0;
+    background-color: rgb(250, 240, 226);
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+header{
+    background-color: black;
+    box-shadow: 1% 5% 10% rgba(21, 21, 21, 0.25);
+    padding-top: 1%;
+    text-align: center;
+}
+
+header ul {
+    padding-left: 0;
+    padding-top: 0.25em;
+    margin-bottom: 0;
+    background-color: rgba(157, 255, 0, 0.686);
+}
+
+header li {
+    list-style: none;
+    display: inline-block;
+    font-family: 'Times New Roman', Times, serif;
+    border-bottom: 3px solid transparent;
+    margin: 0 1%;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+header a:hover{
+    color: blueviolet;
+    text-decoration: underline;
+    text-shadow: 2%;
+}
+
+header h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    color: white;
+}
+
+header h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: silver;
+    font-weight: 400;
+}
+
+header img[src*="logo1"] {
+    width: 10%;
+    position: absolute;
+    top: 4%;
+    left: 8%;
+    rotate: -5deg;
+}
+
+header img[src*="logo2"] {
+    width: 4%;
+    position: absolute;
+    top: 1.5%;
+    left: 17.5%;
+}
+
+header img[src*="logo3"] {
+    width: 4%;
+    position: absolute;
+    top: 1.5%;
+    left: 3.8%;
+}
+
+main {
+    background-color: white;
+    margin: 0 5% 2% 5%;
+    padding: 1% 2%;
+    border: 2px solid rgba(157, 255, 0, 0.686);
+    text-align: justify;
+}
+
+main h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+}
+
+#pre-socraticos  img{
+    float: left;
+    margin: 1% 2% 0 0;
+    width: 40%;
+}
+
+main h2 {
+    display: inline;
+    font-weight: 400;
+    font-size: x-large;
+    text-decoration: underline;
+    font-style: oblique;
+}
+
+#aprofundar {
+    margin: 20px;
+    background-color: rgba(157, 255, 0, 0.686);
+    padding: 2%;
+}
+
+span {
+    display: block;
+    padding-top: 1%;
+    font-size: small;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+span {
+    text-decoration: none;
+    color: rgba(97, 157, 0, 0.686);
+}
+
+#aprofundar{
+    background-color: rgba(157, 255, 0, 0.686);
+    border: 2px solid rgba(97, 157, 0, 0.686);
+    border-radius: 10px;
+    width: 50%;
+    display: inline-block;
+    color: black;
+    margin: 2%;
+    font-size: large;
+}
+
+#aprofundar a {
+    color: black;
+    margin-top: 5%;    
+}
+
+img.aprofundar {
+    float: left;
+    width: 2%;
+    margin-left: 2%;
+    margin-right: 5%;
+}
+
+main img:not(.aprofundar){
+    border: 1px solid rgba(157, 255, 0, 0.686);
+    border-radius: 2%;
+}
+
+main p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
+
+#wiki {
+    float: right;
+    border: 1px solid rgba(97, 157, 0, 0.686);
+    border-radius: 2%;
+    background-color: rgba(217, 255, 156, 0.686);
+    text-align: center;
+    margin: 2%;
+    padding: 2%;
+    font-size: smaller;
+    width: 20%;
+}
+
+img.wiki {
+    width: 50%;
+}
+
+#wiki a {
+    color: rgba(33, 53, 0, 0.686);
+}
+
+#wiki a:hover{
+    color: orange;
+}
+
+#exemplo{
+    margin: 2% 0;
+    background-color: rgba(168, 255, 28, 0.686);
+    width: 24.9%;
+    border: 1px solid rgba(33, 53, 0, 0.686);
+    border-radius: 1.5%;
+    margin: 3%;
+    padding: 1% 3%;
+}
+
+#logica-formal img:not(.aprofundar){
+    float: left;
+    width: 20%;
+    margin-right: 2%;
+}
+
+#silogismo, #logica-aristotelica, #logica-formal {
+    margin-top: 4%;
+}
+
+footer{
+    background-color: black;
+    box-shadow: 1% 5% 10% rgba(21, 21, 21, 0.25);
+    padding-top: 1%;
+    text-align: center;
+    color: white;
+    height: 120px;
+    font-size: small;
+}
+
+#voltar-ao-topo{
+    font-size: larger;
+    font-weight: bolder;
+    color: rgba(20, 33, 0, 0.686);
+    text-decoration: none;
+    position: fixed;
+    right: 2%;
+    bottom: 2%;
+    border: 1px solid rgba(33, 53, 0, 0.686);
+    border-radius: 5%;
+    padding: 0.7%;
+    background-color: rgba(217, 255, 156, 0.686);
+}
+
+main img[src *= "busto"]{
+    width: 20%;
+    float: left;
+    margin-right: 2%;
+}
+
+main #alexandre{
+    float: right;
+    margin-left: 2%;
+    text-align: center;   
+}
+
+main #alexandre span{
+    color: black;
+}
+
+#principais-obras{
+    display: inline-block;
+    margin-top: 0.5%;
+}
+
+footer img:not(#arist):not(#ref):not(#aut){
+    width: 7%;
+    position: absolute;
+    left: 5px;
+    top: 368%;
+}
+
+footer img:not(#ref):not(#aut) {
+    width: 7%;
+    position: absolute;
+    left: 5px;
+    top: 163%;
+}
+
+footer img:not(#aut) {
+    width: 7%;
+    position: absolute;
+    left: 5px;
+    top: 140%;
+}
+
+footer img {
+    width: 7%;
+    position: absolute;
+    left: 5px;
+    top: 77%;
+}
+
+.marco {
+    width: 10%;
+    float: right;
+    margin-left: 2%;
+}
