@@ -52,26 +52,10 @@ header h3{
     font-weight: 400;
 }
 
-header img[src*="logo1"] {
-    width: 10%;
+header img {
     position: absolute;
-    top: 4%;
-    left: 8%;
-    rotate: -5deg;
-}
-
-header img[src*="logo2"] {
-    width: 4%;
-    position: absolute;
-    top: 1.5%;
-    left: 17.5%;
-}
-
-header img[src*="logo3"] {
-    width: 4%;
-    position: absolute;
-    top: 1.5%;
-    left: 3.8%;
+    top: 1%;
+    left: 2%;
 }
 
 main {
@@ -200,12 +184,16 @@ img.wiki {
 
 footer{
     background-color: black;
-    box-shadow: 1% 5% 10% rgba(21, 21, 21, 0.25);
-    padding-top: 1%;
-    text-align: center;
+    padding: 1%;
     color: white;
-    height: 120px;
+    clear: right;
     font-size: small;
+    text-align: center;
+}
+
+footer img {
+    width: 7%;
+    padding: 1em;
 }
 
 #voltar-ao-topo{
@@ -243,38 +231,30 @@ main #alexandre span{
     margin-top: 0.5%;
 }
 
-footer img:not(#arist):not(#ref):not(#aut){
-    width: 7%;
-    position: absolute;
-    left: 5px;
-    top: 520%;
-}
-
-footer img:not(#ref):not(#aut) {
-    width: 7%;
-    position: absolute;
-    left: 5px;
-    top: 163%;
-}
-
-footer img:not(#aut) {
-    width: 7%;
-    position: absolute;
-    left: 5px;
-    top: 140%;
-}
-
-footer img {
-    width: 7%;
-    position: absolute;
-    left: 5px;
-    top: 77%;
-}
-
 .marco {
     width: 10%;
     float: right;
     margin-left: 2%;
+}
+
+.matheuzin {
+    width: 8%;
+    float: left;
+    margin-right: 2%;
+}
+
+.pacoca {
+    width: 10%;
+    float: right;
+    margin-left: 2%;
+}
+
+#matheus {
+    margin-top: 2%;
+}
+
+#luiz {
+    margin-top: 4%;
 }
 
 #aprofundar a:hover {
