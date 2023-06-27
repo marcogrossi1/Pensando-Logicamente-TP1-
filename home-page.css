@@ -291,3 +291,16 @@ dl {
     width: 30%;
     display: inline-block;
 }
+a:hover, a:visited, a:link{
+    color: rgb(0, 0, 0);
+}
+.linkn{
+    font-weight: bold;
+    text-decoration: none;
+}
+#rickrolled{
+    opacity: 0;
+}
+#rickrolled:hover{
+    opacity: 1;
+}
