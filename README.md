@@ -31,7 +31,7 @@ Nas páginas, experimente clicar nas mãos da logo no canto superior esquerdo do
 
 **3. Utilização do Git:**
 
-Durante todo o trabalho, utilizamos o GitHub durante todo o trabalho. Criamos um <a href="https://github.com/marcogrossi1/TP1">repositório</a> e um <a href="https://github.com/users/marcogrossi1/projects/1">projeto</a> para gerir melhor o tempo e distribuir melhor as tarefas!
+Durante todo o trabalho, utilizamos o Github. Criamos um <a href="https://github.com/marcogrossi1/TP1">repositório</a> e um <a href="https://github.com/users/marcogrossi1/projects/1">projeto</a> para gerir melhor o tempo e distribuir melhor as tarefas!
 
 ### Referências:
 **LIVROS DE ARISTÓTELES**
